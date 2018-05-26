@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-     <!--<meta name="viewport" content="initial-scale=1">-->
+    <meta name="viewport" content="initial-scale=1">
     <title>Delta French - Site Officiel</title>
 
     <link rel="icon" type="image/png" href="src/img/deltaLogo.png"/>
@@ -20,11 +20,11 @@
         }
 
         .flip-clock-dot {
-            background-color: #343b40!important;
+            background-color: #343b40 !important;
         }
 
         .inn {
-            background-color: #343b40!important;
+            background-color: #343b40 !important;
             color: white !important;
         }
     </style>
@@ -34,13 +34,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col" style="margin-top: 50%;">
-            <div id="clock"></div>
+        <div class="col-12" style="margin-top: 25%;">
+            <div class="text-center">
+                <div id="clock"></div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <div  class="text-center">
+            <div class="text-center">
                 <a class="btn btn-dark btn-lg " target="_blank"
                    href="https://discordapp.com/invite/CuYmdCZ">
                     <i class="fab fa-discord logo-download"></i>
@@ -68,13 +70,14 @@
     var currentDate = new Date();
 
     // Set some date in the future. In this case, it's always Jan 1
-    var futureDate  = new Date(2018,7,25,0,0);
+    var futureDate = new Date(2018, 7, 25, 0, 0);
 
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
     clock = $('#clock').FlipClock(diff, {
         clockFace: 'DailyCounter',
+        countdown: true,
         autoStart: true
     });
 
