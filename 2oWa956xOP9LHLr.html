@@ -18,7 +18,9 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css"
           integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <!--<link rel="stylesheet" type="text/css" href="html5-bombergirl/css/style.css" />-->
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/bomb/InputEngine.js"></script>
 </head>
 
 <body data-spy="scroll" data-offset="105" class="bg-dark">
@@ -94,7 +96,7 @@
             </div>
         </div>
         <embed id="newsembed" class="newsembed" height="500" width="100%"
-               src="https://widgetbot.io/channels/358220198555156480/358372659677102080/?a=b" />
+               src="https://widgetbot.io/channels/358220198555156480/358372659677102080/?a=b"/>
     </div>
 </div>
 
@@ -711,6 +713,69 @@
     </div>
 </div>
 
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Hey ! Tu as trouvé un bomberman caché !</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="game">
+                    <canvas id="canvas" width="545" height="416" style="margin-left: 45px;"></canvas>
+                </div>
+                <h3>Comment jouer</h3>
+                <div class="row">
+                    <div class="col">
+                        <h5>Joueur 1</h5>
+                        <ul>
+                            <li><strong>Flèches directionnelles</strong> : Se déplacer</li>
+                            <li><strong>Espace / Alt</strong> : Placer une bombe</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Player 2</h4>
+                        <ul>
+                            <li><strong>Z, Q, S, D</strong> : Se déplacer</li>
+                            <li><strong>shift</strong> : Placer une bombe</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <i><strong>Entrée</strong> : Redémarrer</i><br>
+                        <i><strong>Echap</strong> : Menu</i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h6 style="line-height: 0.01; margin-top: 40px">
+                            <p class="pull-left">&copy; 2013 Created by <a href="http://matousskala.cz">Matt Skala</a>
+                            </p>
+                            <p class="pull-right"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img
+                                    src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png"
+                                    width="60" style="margin: -6px 0px;"></a></p>
+                            <p class="pull-left credits">
+                                Credits: <a
+                                    href="http://www.newgrounds.com/art/view/hyptosis/tile-art-batch-1">Hyptosis</a>, <a
+                                    href="http://opengameart.org/content/alternate-lpc-character-sprites-george">George</a>,
+                                <a href="http://opengameart.org/content/one-more-lpc-alternate-character">Radomir
+                                    Dopieralski</a>, <a
+                                    href="http://www.flashkit.com/soundfx/Cartoon/Explosions/Explosio-Adrian_G-7936">Adrian
+                                Gallant</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -720,6 +785,21 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+<script type="text/javascript" src="src/bower_components/EaselJS/lib/easeljs-0.8.1.min.js"></script>
+<script type="text/javascript" src="src/bower_components/PreloadJS/lib/preloadjs-0.6.1.min.js"></script>
+<script type="text/javascript" src="src/bower_components/SoundJS/lib/soundjs-0.6.1.min.js"></script>
+<script type="text/javascript" src="src/js/bomb/core.js"></script>
+<script type="text/javascript" src="src/js/bomb/Utils.js"></script>
+<script type="text/javascript" src="src/js/bomb/Entity.js"></script>
+<script type="text/javascript" src="src/js/bomb/Player.js"></script>
+<script type="text/javascript" src="src/js/bomb/Bot.js"></script>
+<script type="text/javascript" src="src/js/bomb/Bonus.js"></script>
+<script type="text/javascript" src="src/js/bomb/Tile.js"></script>
+<script type="text/javascript" src="src/js/bomb/Fire.js"></script>
+<script type="text/javascript" src="src/js/bomb/Bomb.js"></script>
+<script type="text/javascript" src="src/js/bomb/Menu.js"></script>
+<script type="text/javascript" src="src/js/bomb/InputEngine.js"></script>
+<script type="text/javascript" src="src/js/bomb/GameEngine.js"></script>
 <script type="text/javascript" src="src/js/script.js"></script>
 
 </body>

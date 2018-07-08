@@ -330,3 +330,19 @@ a > i {
     margin: 0 10px;
     font-size: 2em;
 }
+
+.modal-content a {
+    color: #343a40;
+}
+
+.modal-content {
+    color: #343a40;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+        min-width: 671px;
+    }
+}
