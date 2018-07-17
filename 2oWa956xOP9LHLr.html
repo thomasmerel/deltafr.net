@@ -95,8 +95,13 @@
                 <h2 class="title" id="news">Les news</h2>
             </div>
         </div>
-        <embed id="newsembed" class="newsembed" height="500" width="100%"
-               src="https://widgetbot.io/channels/358220198555156480/358372659677102080/?a=b"/>
+        <widgetbot
+                id="newsembed" class="newsembed"
+                server="358220198555156480"
+                channel="358372659677102080"
+                height="500" width="100%"
+                shard="https://cl4.widgetbot.io"
+        ></widgetbot>
     </div>
 </div>
 
@@ -762,6 +767,7 @@
 <script type="text/javascript" src="src/js/bomb/Menu.js"></script>
 <script type="text/javascript" src="src/js/bomb/InputEngine.js"></script>
 <script type="text/javascript" src="src/js/bomb/GameEngine.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 <script type="text/javascript" src="src/js/script.js"></script>
 
 </body>

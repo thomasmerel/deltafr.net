@@ -1,3 +1,5 @@
+const embed = document.getElementById('newsembed');
+
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
@@ -91,4 +93,8 @@ $(document).keydown(function (e) {
 
 $('#modal').on('shown.bs.modal', function () {
     gGameEngine.load()
+});
+
+$('#modal').on('hide.bs.modal', function () {
+    $('#modal').html('')
 });
