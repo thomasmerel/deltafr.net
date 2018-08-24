@@ -41,7 +41,7 @@ $(document).keydown(function (e) {
                 "                        </ul>\n" +
                 "                    </div>\n" +
                 "                    <div class=\"col\">\n" +
-                "                        <h4>Player 2</h4>\n" +
+                "                        <h4>Joueur 2</h4>\n" +
                 "                        <ul>\n" +
                 "                            <li><strong>Z, Q, S, D</strong> : Se déplacer</li>\n" +
                 "                            <li><strong>shift</strong> : Placer une bombe</li>\n" +
