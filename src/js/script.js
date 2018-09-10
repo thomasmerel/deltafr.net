@@ -1,5 +1,3 @@
-const embed = document.getElementById('newsembed');
-
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
