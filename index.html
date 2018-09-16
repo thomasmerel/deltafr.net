@@ -3,6 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Delta French - Site Officiel</title>
+    <link rel="icon" type="image/png" href="src/img/deltaLogo.png"/>
+
+    <meta name="keywords" content="deltafr,delta french,deltafrench,delta,french,team,equipe,jeux,jeux video,france,belgique,canada,francophone,jeux en ligne,discord,news,communauté,multigaming" />
+    <meta name="description" content="Fondée en novembre 2002, la [DeltaFrench] constitue une communauté multigaming aguerrie. C’est au travers de la francophonie et du jeu en ligne que nous nous efforçons d’implanter notre marque depuis maintenant plus de 15 ans" />
+    <meta name="author" content="Thomas MEREL" />
+
     <meta property="og:title" content="Delta French - Site Officiel"/>
     <meta property="og:description"
           content="Fondée en novembre 2002, la [DeltaFrench] constitue une communauté multigaming aguerrie. C’est au travers de la francophonie et du jeu en ligne que nous nous efforçons d’implanter notre marque depuis maintenant plus de 15 ans"/>
@@ -10,9 +18,12 @@
     <meta property="og:url" content="http://deltafr.net"/>
     <meta property="og:image" content="http://deltafr.net/src/img/delta.png"/>
 
-    <title>Delta French - Site Officiel</title>
-
-    <link rel="icon" type="image/png" href="src/img/deltaLogo.png"/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Vulture___">
+    <meta name="twitter:creator" content="@Vulture___">
+    <meta name="twitter:title" content="Delta French - Site Officiel">
+    <meta name="twitter:description" content="Fondée en novembre 2002, la [DeltaFrench] constitue une communauté multigaming aguerrie. C’est au travers de la francophonie et du jeu en ligne que nous nous efforçons d’implanter notre marque depuis maintenant plus de 15 ans">
+    <meta name="twitter:image" content="http://deltafr.net/src/img/delta.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -93,13 +104,20 @@
                 <h2 class="title" id="news">Les news</h2>
             </div>
         </div>
-        <widgetbot
-                id="newsembed" class="newsembed"
-                server="358220198555156480"
-                channel="358372659677102080"
-                height="500" width="100%"
-                shard="https://cl4.widgetbot.io"
-        ></widgetbot>
+        <div class="alert alert-warning text-center" role="alert">
+            Les news sont temporairement indisponible.<br>
+            Si vous voulez lire les news des DeltaFr, vous pouvez venir sur
+            <a style="color: #856404; text-decoration: underline;" href="https://discordapp.com/invite/CuYmdCZ">
+                notre serveur Discord
+            </a>.
+        </div>
+        <!--<widgetbot-->
+        <!--id="newsembed" class="newsembed"-->
+        <!--server="358220198555156480"-->
+        <!--channel="358372659677102080"-->
+        <!--height="500" width="100%"-->
+        <!--shard="https://cl4.widgetbot.io"-->
+        <!--&gt;</widgetbot>-->
     </div>
 </div>
 
@@ -114,66 +132,7 @@
             <h4 class="subtitle">Les leaders</h4>
         </div>
     </div>
-    <div class="members">
-        <div class="row text-center justify-content-center">
-            <div class="col-md-4">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/eagle.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Eagle
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561197970728039">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/raptor.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Raptor
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561197961915318">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/warthog.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Warthog
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198066334393">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="members" id="leaders">
     </div>
 
     <div class="row">
@@ -181,474 +140,7 @@
             <h4 class="subtitle">Les membres</h4>
         </div>
     </div>
-    <div class="members">
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/ant.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Ant
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a href="https://steamcommunity.com/id/Tuponia">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                            <a target="_blank" href="https://www.twitch.tv/deltafrant">
-                                <i class="fab fa-twitch"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/bear.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Bear
-                        </div>
-                        <div class="info-desc">25 ans</div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198008978169">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                            <a target="_blank" href="https://www.twitch.tv/thenossy">
-                                <i class="fab fa-twitch"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/blackbird.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Blackbird
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198053539965">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/cheetah.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Cheetah
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/avatar.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Coyote
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/avatar.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Crow
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198029587542">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/dogg.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Dogg
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561197985342238">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/fennec.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Fennec
-                        </div>
-                        <div class="info-desc">21 ans</div>
-                        <div class="info-desc">
-                            <a target="_blank" href="http://steamcommunity.com/profiles/76561198039833419/">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                            <a target="_blank" href="https://www.twitch.tv/mr_lo0ky">
-                                <i class="fab fa-twitch"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/gerfaut.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Gerfaut
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198011076482">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/guanaco.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Guanaco
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198021452134">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/gorilla.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Gorilla
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561193787144601">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/harfang.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Harfang
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198105484872">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/ikran.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Ikran
-                        </div>
-                        <div class="info-desc">26 ans</div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/id/Ciiz79">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/avatar.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Licorne
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/octopus.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Octopus
-                        </div>
-                        <div class="info-desc">31 ans</div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198016252308/">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/avatar.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Panda
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/redbull.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Redbull
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/id/deltafr_redbull">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/scarabe.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Scarabe
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198030682725">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/avatar.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Shark
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/stoat.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Stoat
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/tiger.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Tiger
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center justify-content-center">
-            <div class="col-md-4">
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/vulture.png">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Vulture
-                        </div>
-                        <div class="info-desc">24 ans</div>
-                        <div class="info-desc">
-                            <a target="_blank" href="http://steamcommunity.com/id/Vulture__/">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                            <a target="_blank" href="https://www.twitch.tv/vulture____">
-                                <i class="fab fa-twitch"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card hovercard">
-                    <div class="cardheader">
-
-                    </div>
-                    <div class="avatar">
-                        <img alt="" src="src/img/deltas/walrus.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="info-title">
-                            Walrus
-                        </div>
-                        <div class="info-desc"><br/></div>
-                        <div class="info-desc">
-                            <a target="_blank" href="https://steamcommunity.com/profiles/76561198002184444">
-                                <i class="fab fa-steam-symbol"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="members" id="members">
     </div>
 </div>
 
@@ -788,7 +280,7 @@
 <script type="text/javascript" src="src/js/scripts/InputEngine.js"></script>
 <script type="text/javascript" src="src/js/scripts/GameEngine.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-<script type="text/javascript" src="src/js/script.min.js"></script>
+<script type="text/javascript" src="src/js/script.js"></script>
 
 </body>
 </html>

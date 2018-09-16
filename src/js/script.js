@@ -1,3 +1,141 @@
+var leaders = [
+    ['Eagle', 'src/img/deltas/eagle.jpg', '', 'https://steamcommunity.com/profiles/76561197970728039', ''],
+    ['Raptor', 'src/img/deltas/raptor.png', '', 'https://steamcommunity.com/profiles/76561197961915318', ''],
+    ['Warthog', 'src/img/deltas/warthog.jpg', '', 'https://steamcommunity.com/profiles/76561198066334393', ''],
+];
+
+var members = [
+    ['Alcyon', 'src/img/deltas/avatar.jpg', '', 'https://steamcommunity.com/profiles/76561198010847814', ''],
+    ['Ant', 'src/img/deltas/ant.jpg', '', 'https://steamcommunity.com/id/Tuponia', 'https://www.twitch.tv/deltafrant'],
+    ['Bear', 'src/img/deltas/bear.jpg', '25 ans', 'https://steamcommunity.com/profiles/76561198008978169', 'https://www.twitch.tv/thenossy'],
+    ['Blackbird', 'src/img/deltas/blackbird.jpg', '', 'https://steamcommunity.com/profiles/76561198053539965', ''],
+    ['Cheetah', 'src/img/deltas/cheetah.png', '', '', ''],
+    ['Coyote', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Crow', 'src/img/deltas/avatar.jpg', '', 'https://steamcommunity.com/profiles/76561198029587542', ''],
+    ['Dogg', 'src/img/deltas/dogg.jpg', '', 'https://steamcommunity.com/profiles/76561197985342238', ''],
+    ['Fennec', 'src/img/deltas/fennec.png', '21 ans', 'https://steamcommunity.com/profiles/76561198039833419/', 'https://www.twitch.tv/mr_lo0ky'],
+    ['Gerfaut', 'src/img/deltas/gerfaut.jpg', '', 'https://steamcommunity.com/profiles/76561198011076482', ''],
+    ['Guanaco', 'src/img/deltas/guanaco.jpg', '', 'https://steamcommunity.com/profiles/76561198021452134', ''],
+    ['Gorilla', 'src/img/deltas/gorilla.png', '', 'https://steamcommunity.com/profiles/76561193787144601', ''],
+    ['Harfang', 'src/img/deltas/harfang.jpg', '', 'https://steamcommunity.com/profiles/76561198105484872', ''],
+    ['Ikran', 'src/img/deltas/ikran.png', '26 ans', 'https://steamcommunity.com/id/Ciiz79', ''],
+    ['Licorne', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Octopus', 'src/img/deltas/octopus.jpg', '31 ans', 'https://steamcommunity.com/profiles/76561198016252308/', ''],
+    ['Panda', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Redbull', 'src/img/deltas/redbull.png', '', 'https://steamcommunity.com/id/deltafr_redbull', ''],
+    ['Scarabe', 'src/img/deltas/scarabe.png', '', 'https://steamcommunity.com/profiles/76561198030682725', ''],
+    ['Shark', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Stoat', 'src/img/deltas/stoat.png', '', '', ''],
+    ['Tiger', 'src/img/deltas/tiger.png', '', '', ''],
+    ['Vulture', 'src/img/deltas/vulture.png', '24 ans', 'https://steamcommunity.com/id/Vulture__/', 'https://www.twitch.tv/vulture____'],
+    ['Walrus', 'src/img/deltas/walrus.jpg', '', 'https://steamcommunity.com/profiles/76561198002184444', '']
+];
+
+$(document).ready(fillLeaders());
+$(document).ready(fillMembers());
+
+function fillLeaders(){
+    var html = '';
+    var nbitems = 3;
+
+    for(var row = 0; row < leaders.length; row += nbitems)
+    {
+        html +='<div class="row text-center justify-content-center">\n'; // open div.row
+        for(var i = row; i < (row + nbitems); i++)
+        {
+            if(typeof members[i] !== "undefined") {
+                html += '<div class="col">\n';
+                html += '<div class="card hovercard">\n';
+                html += '<div class="cardheader"></div>\n';
+                html += '<div class="avatar">\n';
+                html += '<img alt="" src="' + leaders[i][1] + '">\n';
+                html += '</div>\n';
+                html += '<div class="info">\n';
+                html += '<div class="info-title">\n';
+                html += leaders[i][0] + '\n';
+                html += '</div>\n';
+                if (leaders[i][2] === '') {
+                    html += '<div class="info-desc"><br/></div>\n';
+                } else {
+                    html += '<div class="info-desc">' + leaders[i][2] + '</div>\n';
+                }
+                html += '<div class="info-desc">\n';
+                if (leaders[i][3] === '') {
+                    html += '<div style="height: 34px"></div>\n';
+                } else {
+                    html += '<a href="' + leaders[i][3] + '">\n';
+                    html += '<i class="fab fa-steam-symbol"></i>\n';
+                    html += '</a>\n';
+                }
+
+                if (leaders[i][4] !== '') {
+                    html += '<a target="_blank" href="https://www.twitch.tv/deltafrant">\n';
+                    html += '<i class="fab fa-twitch"></i>\n';
+                    html += '</a>\n';
+                }
+                html += '</div>\n';
+                html += '</div>\n';
+                html += '</div>\n';
+                html += '</div>\n';
+            }
+        }
+        html += '</div>\n'; // close div.row
+    }
+
+    $('#leaders').html(html);
+}
+
+function fillMembers(){
+    var html = '';
+    var nbitems = 3;
+
+    for(var row = 0; row < members.length; row += nbitems)
+    {
+        html +='<div class="row text-center justify-content-center">\n'; // open div.row
+        for(var i = row; i < (row + nbitems); i++)
+        {
+            if(typeof members[i] !== "undefined") {
+                html += '<div class="col">\n';
+                html += '<div class="card hovercard">\n';
+                html += '<div class="cardheader"></div>\n';
+                html += '<div class="avatar">\n';
+                html += '<img alt="" src="' + members[i][1] + '">\n';
+                html += '</div>\n';
+                html += '<div class="info">\n';
+                html += '<div class="info-title">\n';
+                html += members[i][0] + '\n';
+                html += '</div>\n';
+                if (members[i][2] === '') {
+                    html += '<div class="info-desc"><br/></div>\n';
+                } else {
+                    html += '<div class="info-desc">' + members[i][2] + '</div>\n';
+                }
+                html += '<div class="info-desc">\n';
+                if (members[i][3] === '') {
+                    html += '<div style="height: 34px"></div>\n';
+                } else {
+                    html += '<a href="' + members[i][3] + '">\n';
+                    html += '<i class="fab fa-steam-symbol"></i>\n';
+                    html += '</a>\n';
+                }
+
+                if (members[i][4] !== '') {
+                    html += '<a target="_blank" href="https://www.twitch.tv/deltafrant">\n';
+                    html += '<i class="fab fa-twitch"></i>\n';
+                    html += '</a>\n';
+                }
+                html += '</div>\n';
+                html += '</div>\n';
+                html += '</div>\n';
+                html += '</div>\n';
+            }
+        }
+        html += '</div>\n'; // close div.row
+    }
+
+    $('#members').html(html);
+}
+
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
