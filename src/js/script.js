@@ -69,7 +69,7 @@ function fillLeaders(){
                 }
 
                 if (leaders[i][4] !== '') {
-                    html += '<a target="_blank" href="https://www.twitch.tv/deltafrant">\n';
+                    html += '<a target="_blank" href="'+ leaders[i][4] +'">\n';
                     html += '<i class="fab fa-twitch"></i>\n';
                     html += '</a>\n';
                 }
@@ -120,7 +120,7 @@ function fillMembers(){
                 }
 
                 if (members[i][4] !== '') {
-                    html += '<a target="_blank" href="https://www.twitch.tv/deltafrant">\n';
+                    html += '<a target="_blank" href="'+ members[i][4] +'">\n';
                     html += '<i class="fab fa-twitch"></i>\n';
                     html += '</a>\n';
                 }

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="913ea800-b2dd-4d2e-81fb-72f16ce32d44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="913ea800-b2dd-4d2e-81fb-72f16ce32d44" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +14,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="275">
+              <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,21 +35,6 @@
                 <element signature="n#style#0;n#canvas#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#1930#1936#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/script.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#378#385#1" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1878#1884#0" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -134,7 +115,7 @@
       <path value="$PROJECT_DIR$/src/bower_components/jquery/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -231,16 +212,15 @@
       <workItem from="1535240245722" duration="1535000" />
       <workItem from="1535404456705" duration="922000" />
       <workItem from="1536614759077" duration="234000" />
-      <workItem from="1537109576022" duration="9659000" />
+      <workItem from="1537109576022" duration="10296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82135000" />
+    <option name="totallyTimeSpent" value="82772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35699373" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="275">
+          <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
