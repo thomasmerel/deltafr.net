@@ -31,8 +31,10 @@ var members = [
     ['Walrus', 'src/img/deltas/walrus.jpg', '', 'https://steamcommunity.com/profiles/76561198002184444', '']
 ];
 
-$(document).ready(fillLeaders());
-$(document).ready(fillMembers());
+$(document).ready(function () {
+    fillLeaders();
+    fillMembers();
+});
 
 function fillLeaders(){
     var html = '';
