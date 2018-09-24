@@ -5,26 +5,27 @@ var leaders = [
 ];
 
 var members = [
-    ['Alcyon', 'src/img/deltas/avatar.jpg', '', 'https://steamcommunity.com/profiles/76561198010847814', ''],
+    ['Alcyon', 'src/img/deltas/alcyon.jpg', '', 'https://steamcommunity.com/profiles/76561198010847814', ''],
     ['Ant', 'src/img/deltas/ant.jpg', '', 'https://steamcommunity.com/id/Tuponia', 'https://www.twitch.tv/deltafrant'],
     ['Bear', 'src/img/deltas/bear.jpg', '25 ans', 'https://steamcommunity.com/profiles/76561198008978169', 'https://www.twitch.tv/thenossy'],
     ['Blackbird', 'src/img/deltas/blackbird.jpg', '', 'https://steamcommunity.com/profiles/76561198053539965', ''],
     ['Cheetah', 'src/img/deltas/cheetah.png', '', '', ''],
-    ['Coyote', 'src/img/deltas/avatar.jpg', '', '', ''],
-    ['Crow', 'src/img/deltas/avatar.jpg', '', 'https://steamcommunity.com/profiles/76561198029587542', ''],
+    ['Coyote', 'src/img/deltas/coyote.png', '', '', ''],
+    ['Crow', 'src/img/deltas/crow.jpg', '', 'https://steamcommunity.com/profiles/76561198029587542', ''],
     ['Dogg', 'src/img/deltas/dogg.jpg', '', 'https://steamcommunity.com/profiles/76561197985342238', ''],
     ['Fennec', 'src/img/deltas/fennec.png', '21 ans', 'https://steamcommunity.com/profiles/76561198039833419/', 'https://www.twitch.tv/mr_lo0ky'],
+    ['Gecko', 'src/img/deltas/gecko.jpg', '', '', ''],
     ['Gerfaut', 'src/img/deltas/gerfaut.jpg', '', 'https://steamcommunity.com/profiles/76561198011076482', ''],
     ['Guanaco', 'src/img/deltas/guanaco.jpg', '', 'https://steamcommunity.com/profiles/76561198021452134', ''],
     ['Gorilla', 'src/img/deltas/gorilla.png', '', 'https://steamcommunity.com/profiles/76561193787144601', ''],
     ['Harfang', 'src/img/deltas/harfang.jpg', '', 'https://steamcommunity.com/profiles/76561198105484872', ''],
     ['Ikran', 'src/img/deltas/ikran.png', '26 ans', 'https://steamcommunity.com/id/Ciiz79', ''],
-    ['Licorne', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Licorne', 'src/img/deltas/licorne.jpg', '', '', ''],
     ['Octopus', 'src/img/deltas/octopus.jpg', '31 ans', 'https://steamcommunity.com/profiles/76561198016252308/', ''],
-    ['Panda', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Panda', 'src/img/deltas/panda.png', '25 ans', 'https://steamcommunity.com/id/iEledys', ''],
     ['Redbull', 'src/img/deltas/redbull.png', '', 'https://steamcommunity.com/id/deltafr_redbull', ''],
     ['Scarabe', 'src/img/deltas/scarabe.png', '', 'https://steamcommunity.com/profiles/76561198030682725', ''],
-    ['Shark', 'src/img/deltas/avatar.jpg', '', '', ''],
+    ['Shark', 'src/img/deltas/shark.jpg', '', '', ''],
     ['Stoat', 'src/img/deltas/stoat.png', '', '', ''],
     ['Tiger', 'src/img/deltas/tiger.png', '', '', ''],
     ['Vulture', 'src/img/deltas/vulture.png', '24 ans', 'https://steamcommunity.com/id/Vulture__/', 'https://www.twitch.tv/vulture____'],
@@ -46,7 +47,7 @@ function fillLeaders(){
         for(var i = row; i < (row + nbitems); i++)
         {
             if(typeof members[i] !== "undefined") {
-                html += '<div class="col">\n';
+                html += '<div class="col-4">\n';
                 html += '<div class="card hovercard">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
@@ -97,7 +98,7 @@ function fillMembers(){
         for(var i = row; i < (row + nbitems); i++)
         {
             if(typeof members[i] !== "undefined") {
-                html += '<div class="col">\n';
+                html += '<div class="col-4">\n';
                 html += '<div class="card hovercard">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
