@@ -41,7 +41,8 @@ $(document).ready(function () {
     new ClipboardJS(".clipboard");
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
+    fillBdayBack();
 });
 
 var timeout = false;
@@ -73,8 +74,24 @@ function copyCp() {
     }, 3000);
 }
 
+var bdayArray = [];
+function isBday(bdate, id) {
+    var birthday = new Date(bdate);
+    var today = new Date();
+
+    if(birthday.getMonth() === today.getMonth() && birthday.getDate() === today.getDate()) {
+        bdayArray.push(id)
+    }
+}
+
+function fillBdayBack() {
+    for (var i = 0; i < bdayArray.length; i++) {
+        $('#'+bdayArray[i]).addClass('bday');
+    }
+}
+
 function calcAge(bdate) { // birthday is a date
-    birthday = new Date(bdate);
+    var birthday = new Date(bdate);
     var ageDifMs = Date.now() - birthday.getTime();
     var ageDate = new Date(ageDifMs); // miliseconds from epoch
     return Math.abs(ageDate.getUTCFullYear() - 1970);
@@ -89,7 +106,7 @@ function fillLeaders() {
         for (var i = row; i < (row + nbitems); i++) {
             if (typeof members[i] !== "undefined") {
                 html += '<div class="col-4">\n';
-                html += '<div class="card hovercard">\n';
+                html += '<div class="card hovercard" id="'+ leaders[i][0] +'">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
                 html += '<img alt="" src="' + leaders[i][1] + '">\n';
@@ -149,7 +166,7 @@ function fillMembers() {
         for (var i = row; i < (row + nbitems); i++) {
             if (typeof members[i] !== "undefined") {
                 html += '<div class="col-4">\n';
-                html += '<div class="card hovercard">\n';
+                html += '<div class="card hovercard" id="'+ members[i][0] +'">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
                 html += '<img alt="" src="' + members[i][1] + '">\n';
@@ -162,6 +179,7 @@ function fillMembers() {
                 if (members[i][2] === '') {
                     html += '<div class="age info-desc"><br/></div>\n';
                 } else {
+                    isBday(members[i][2], members[i][0]);
                     var age = calcAge(members[i][2]);
                     html += '<div class="age info-desc">' + age + ' ans</div>\n';
                 }
