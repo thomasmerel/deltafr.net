@@ -336,6 +336,16 @@ a > i {
     color: #343a40;
 }
 
+.alert-dark {
+    text-align: center;
+    background-color: rgba(52,58,64,0.9);
+    border-color: rgba(52,58,64,0.9);
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    max-width: 200px;
+}
+
 .modal-content {
     color: #343a40;
 }
