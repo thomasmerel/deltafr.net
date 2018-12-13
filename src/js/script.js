@@ -36,8 +36,8 @@ var members = [
 ];
 
 $(document).ready(function () {
-    fillLeaders();
-    fillMembers();
+    fill('leaders', leaders);
+    fill('members', members);
     new ClipboardJS(".clipboard");
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
@@ -97,29 +97,29 @@ function calcAge(bdate) { // birthday is a date
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-function fillLeaders() {
+function fill (id, array) {
     var html = '';
     var nbitems = 3;
 
-    for (var row = 0; row < leaders.length; row += nbitems) {
+    for (var row = 0; row < array.length; row += nbitems) {
         html += '<div class="row text-center justify-content-center">\n'; // open div.row
         for (var i = row; i < (row + nbitems); i++) {
             if (typeof members[i] !== "undefined") {
                 html += '<div class="col-4">\n';
-                html += '<div class="card hovercard" id="'+ leaders[i][0] +'">\n';
+                html += '<div class="card hovercard" id="'+ array[i][0] +'">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
-                html += '<img alt="" src="' + leaders[i][1] + '">\n';
+                html += '<img alt="" src="' + array[i][1] + '">\n';
                 html += '</div>\n';
                 html += '<div class="info">\n';
                 html += '<div class="info-title">\n';
-                html += leaders[i][0] + '\n';
+                html += array[i][0] + '\n';
                 html += '</div>\n';
                 ///////// AGE
-                if (leaders[i][2] === '') {
+                if (array[i][2] === '') {
                     html += '<div class="info-desc"><br/></div>\n';
                 } else {
-                    var age = calcAge(leaders[i][2]);
+                    var age = calcAge(array[i][2]);
                     html += '<div class="age info-desc">' + age + ' ans</div>\n';
                 }
                 html += '<div class="info-desc">\n';
@@ -128,21 +128,21 @@ function fillLeaders() {
                     html += '<div style="height: 34px"></div>\n';
                 }
                 ///////// STEAM
-                if (leaders[i][3] !== '') {
-                    html += '<a href="' + leaders[i][3] + '">\n';
+                if (array[i][3] !== '') {
+                    html += '<a href="' + array[i][3] + '">\n';
                     html += '<i class="fab fa-steam-symbol"></i>\n';
                     html += '</a>\n';
                 }
                 ///////// TWITCH
-                if (leaders[i][4] !== '') {
-                    html += '<a target="_blank" href="' + leaders[i][4] + '">\n';
+                if (array[i][4] !== '') {
+                    html += '<a target="_blank" href="' + array[i][4] + '">\n';
                     html += '<i class="fab fa-twitch"></i>\n';
                     html += '</a>\n';
                 }
                 ///////// DISCORD
-                if (leaders[i][5] !== '') {
-                    html += '<a target="_blank" class="discord clipboard" href="#" href="#" data-clipboard-text="' + leaders[i][5] + '" onclick="copyCp()">\n';
-                    html += '<i class="fab fa-discord" data-toggle="tooltip" data-placement="top" title="' + leaders[i][5] + '"></i>\n';
+                if (array[i][5] !== '') {
+                    html += '<a target="_blank" class="discord clipboard" href="#" href="#" data-clipboard-text="' + array[i][5] + '" onclick="copyCp()">\n';
+                    html += '<i class="fab fa-discord" data-toggle="tooltip" data-placement="top" title="' + array[i][5] + '"></i>\n';
                     html += '</a>\n';
                 }
                 html += '</div>\n';
@@ -154,68 +154,7 @@ function fillLeaders() {
         html += '</div>\n'; // close div.row
     }
 
-    $('#leaders').html(html);
-}
-
-function fillMembers() {
-    var html = '';
-    var nbitems = 3;
-
-    for (var row = 0; row < members.length; row += nbitems) {
-        html += '<div class="row text-center justify-content-center">\n'; // open div.row
-        for (var i = row; i < (row + nbitems); i++) {
-            if (typeof members[i] !== "undefined") {
-                html += '<div class="col-4">\n';
-                html += '<div class="card hovercard" id="'+ members[i][0] +'">\n';
-                html += '<div class="cardheader"></div>\n';
-                html += '<div class="avatar">\n';
-                html += '<img alt="" src="' + members[i][1] + '">\n';
-                html += '</div>\n';
-                html += '<div class="info">\n';
-                html += '<div class="info-title">\n';
-                html += members[i][0] + '\n';
-                html += '</div>\n';
-                ///////// AGE
-                if (members[i][2] === '') {
-                    html += '<div class="age info-desc"><br/></div>\n';
-                } else {
-                    isBday(members[i][2], members[i][0]);
-                    var age = calcAge(members[i][2]);
-                    html += '<div class="age info-desc">' + age + ' ans</div>\n';
-                }
-                html += '<div class="info-desc">\n';
-                ///////// VIDE
-                if(members[i][3] === '' && members[i][4] === '' && members[i][5] === ''){
-                    html += '<div style="height: 34px"></div>\n';
-                }
-                ///////// STEAM
-                if (members[i][3] !== '') {
-                    html += '<a class="steam" href="' + members[i][3] + '">\n';
-                    html += '<i class="fab fa-steam-symbol"></i>\n';
-                    html += '</a>\n';
-                }
-                ///////// TWITCH
-                if (members[i][4] !== '') {
-                    html += '<a target="_blank" class="twitch" href="' + members[i][4] + '">\n';
-                    html += '<i class="fab fa-twitch"></i>\n';
-                    html += '</a>\n';
-                }
-                ///////// DISCORD
-                if (members[i][5] !== '') {
-                    html += '<a target="_blank" class="discord clipboard" href="#" href="#" data-clipboard-text="' + members[i][5] + '" onclick="copyCp()">\n';
-                    html += '<i class="fab fa-discord" data-toggle="tooltip" data-placement="top" title="' + members[i][5] + '"></i>\n';
-                    html += '</a>\n';
-                }
-                html += '</div>\n';
-                html += '</div>\n';
-                html += '</div>\n';
-                html += '</div>\n';
-            }
-        }
-        html += '</div>\n'; // close div.row
-    }
-
-    $('#members').html(html);
+    $('#'+id).html(html);
 }
 
 $(document).on('click', 'a[href^="#"]', function (event) {
