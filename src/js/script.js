@@ -109,7 +109,7 @@ function fill (id, array) {
                 html += '<div class="card hovercard" id="'+ array[i][0] +'">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
-                html += '<img alt="" src="' + array[i][1] + '">\n';
+                html += '<img alt="profile image of '+array[i][0]+'" src="' + array[i][1] + '">\n';
                 html += '</div>\n';
                 html += '<div class="info">\n';
                 html += '<div class="info-title">\n';

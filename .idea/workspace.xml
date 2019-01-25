@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3604">
-              <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+            <state relative-caret-position="3077">
+              <caret line="230" column="53" selection-start-line="230" selection-start-column="53" selection-end-line="230" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -34,19 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="2669">
               <caret line="157" column="1" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#400#407#1" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1930#1936#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +75,7 @@
       <find>src/img/deltas</find>
       <find>.png</find>
       <find>leaders</find>
+      <find>http://</find>
     </findStrings>
     <replaceStrings>
       <replace>avatar.jpg</replace>
@@ -95,6 +88,7 @@
       <replace>.jpng</replace>
       <replace>.jpg</replace>
       <replace>array</replace>
+      <replace>https://</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,9 +104,9 @@
         <option value="$PROJECT_DIR$/html5-bombergirl/js/InputEngine.js" />
         <option value="$PROJECT_DIR$/2oWa956xOP9LHLr.html" />
         <option value="$PROJECT_DIR$/src/js/script.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -218,11 +212,13 @@
       <workItem from="1544656847623" duration="612000" />
       <workItem from="1544661216005" duration="2662000" />
       <workItem from="1545070238268" duration="11000" />
+      <workItem from="1548281288889" duration="238000" />
+      <workItem from="1548282596622" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96111000" />
+    <option name="totallyTimeSpent" value="96360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -497,16 +493,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2oWa956xOP9LHLr.html" />
     <entry file="file://$PROJECT_DIR$/src/js/script.min.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -516,15 +502,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="2669">
           <caret line="157" column="1" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3077">
+          <caret line="230" column="53" selection-start-line="230" selection-start-column="53" selection-end-line="230" selection-end-column="53" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#400#407#1" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1930#1936#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#h6#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
