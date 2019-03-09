@@ -24,7 +24,7 @@ var members = [
     ['Mouse', 'src/img/deltas/opt/avatar.jpg', '', '', '', 'la sourie#6630'],
     ['Licorne', 'src/img/deltas/opt/licorne.jpg', '', '', '', ''],
     ['Octopus', 'src/img/deltas/opt/octopus.jpg', '1987-05-15', 'https://steamcommunity.com/profiles/76561198016252308/', '', 'Octopus#8323'],
-    ['Panda', 'src/img/deltas/opt/panda.jpg', '1993-01-01', 'https://steamcommunity.com/id/iEledys', '', ''],
+    ['Panda', 'src/img/deltas/opt/panda.jpg', '1993-03-09', 'https://steamcommunity.com/id/iEledys', '', ''],
     ['Phoenix', 'src/img/deltas/opt/avatar.jpg', '', '', '', 'Devy#3943'],
     ['Redbull', 'src/img/deltas/opt/redbull.jpg', '', 'https://steamcommunity.com/id/deltafr_redbull', '', 'Red#1343'],
     ['Scarabe', 'src/img/deltas/opt/scarabe.jpg', '', 'https://steamcommunity.com/profiles/76561198030682725', '', 'Scarabe#6100'],
@@ -149,6 +149,8 @@ function fill (id, array) {
                 html += '</div>\n';
                 html += '</div>\n';
                 html += '</div>\n';
+
+                isBday(array[i][2], array[i][0]);
             }
         }
         html += '</div>\n'; // close div.row
