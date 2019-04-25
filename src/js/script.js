@@ -21,7 +21,7 @@ var members = [
     ['Guanaco', 'src/img/deltas/opt/guanaco.jpg', '1986-02-27', 'https://steamcommunity.com/profiles/76561198021452134', '', 'Guanaco#5408'],
     ['Harfang', 'src/img/deltas/opt/harfang.jpg', '', 'https://steamcommunity.com/profiles/76561198105484872', '', 'Light#9645'],
     ['Ikran', 'src/img/deltas/opt/ikran.jpg', '1992-01-30', 'https://steamcommunity.com/id/Ciiz79', '', 'Ci\'iz#3573'],
-    ['Impala', 'src/img/deltas/opt/impala.jpg', '1982-09-22', '', '', 'etanmirror#5467'],
+    ['Impala', 'src/img/deltas/opt/impala.jpg', '1982-09-22', 'https://steamcommunity.com/profiles/76561198006371876', '', 'etanmirror#5467'],
     ['Mouse', 'src/img/deltas/opt/avatar.jpg', '', '', '', 'la sourie#6630'],
     ['Licorne', 'src/img/deltas/opt/licorne.jpg', '', '', '', ''],
     ['Octopus', 'src/img/deltas/opt/octopus.jpg', '1987-05-15', 'https://steamcommunity.com/profiles/76561198016252308/', '', 'Octopus#8323'],
