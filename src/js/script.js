@@ -12,7 +12,7 @@ var members = [
     ['Cheetah', 'src/img/deltas/opt/cheetah.jpg', '', '', '', '[DeltaFr]Cheetah#7223'],
     ['Coyote', 'src/img/deltas/opt/coyote.jpg', '', '', '', 'Coyote#9216'],
     ['Crow', 'src/img/deltas/opt/crow.jpg', '', 'https://steamcommunity.com/profiles/76561198029587542', '', ''],
-    ['Dogg', 'src/img/deltas/opt/dogg.jpg', '', 'https://steamcommunity.com/profiles/76561197985342238', '', 'Dogg#8105'],
+    ['Dogg', 'src/img/deltas/opt/dogg.jpg', '1981-07-21', 'https://steamcommunity.com/profiles/76561197985342238', '', 'Dogg#8105'],
     ['Fennec', 'src/img/deltas/opt/fennec.jpg', '1997-07-06', 'https://steamcommunity.com/profiles/76561198039833419/', 'https://www.twitch.tv/mr_lo0ky', 'Fennec#4338'],
     ['Gecko', 'src/img/deltas/opt/gecko.jpg', '', '', '', ''],
     ['Gerfaut', 'src/img/deltas/opt/gerfaut.jpg', '', 'https://steamcommunity.com/profiles/76561198011076482', '', 'Gerfaut#8330'],
