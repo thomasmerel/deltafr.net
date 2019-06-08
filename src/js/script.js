@@ -49,11 +49,11 @@ $(document).ready(function () {
 var timeout = false;
 
 function copyCp() {
-    if(timeout === false) {
+    if (timeout === false) {
         $.notify({
             // options
             message: 'Copied to clipboard'
-        },{
+        }, {
             // settings
             type: 'dark',
             delay: 2000,
@@ -70,24 +70,25 @@ function copyCp() {
         timeout = true;
     }
 
-    setTimeout(function(){
+    setTimeout(function () {
         timeout = false;
     }, 3000);
 }
 
 var bdayArray = [];
+
 function isBday(bdate, id) {
     var birthday = new Date(bdate);
     var today = new Date();
 
-    if(birthday.getMonth() === today.getMonth() && birthday.getDate() === today.getDate()) {
+    if (birthday.getMonth() === today.getMonth() && birthday.getDate() === today.getDate()) {
         bdayArray.push(id)
     }
 }
 
 function fillBdayBack() {
     for (var i = 0; i < bdayArray.length; i++) {
-        $('#'+bdayArray[i]).addClass('bday');
+        $('#' + bdayArray[i]).addClass('bday');
     }
 }
 
@@ -98,7 +99,7 @@ function calcAge(bdate) { // birthday is a date
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-function fill (id, array) {
+function fill(id, array) {
     var html = '';
     var nbitems = 3;
 
@@ -107,10 +108,10 @@ function fill (id, array) {
         for (var i = row; i < (row + nbitems); i++) {
             if (typeof members[i] !== "undefined") {
                 html += '<div class="col-4">\n';
-                html += '<div class="card hovercard" id="'+ array[i][0] +'">\n';
+                html += '<div class="card hovercard" id="' + array[i][0] + '">\n';
                 html += '<div class="cardheader"></div>\n';
                 html += '<div class="avatar">\n';
-                html += '<img alt="profile image of '+array[i][0]+'" src="' + array[i][1] + '">\n';
+                html += '<img alt="profile image of ' + array[i][0] + '" src="' + array[i][1] + '">\n';
                 html += '</div>\n';
                 html += '<div class="info">\n';
                 html += '<div class="info-title">\n';
@@ -125,24 +126,24 @@ function fill (id, array) {
                 }
                 html += '<div class="info-desc">\n';
                 ///////// VIDE
-                if(members[i][3] === '' && members[i][4] === '' && members[i][5] === ''){
+                if (members[i][3] === '' && members[i][4] === '' && members[i][5] === '') {
                     html += '<div style="height: 34px"></div>\n';
                 }
                 ///////// STEAM
                 if (array[i][3] !== '') {
-                    html += '<a href="' + array[i][3] + '">\n';
+                    html += '<a href="' + array[i][3] + '" rel="noopener" aria-label="steam of ' + array[i][0] + '">\n';
                     html += '<i class="fab fa-steam-symbol"></i>\n';
                     html += '</a>\n';
                 }
                 ///////// TWITCH
                 if (array[i][4] !== '') {
-                    html += '<a target="_blank" href="' + array[i][4] + '">\n';
+                    html += '<a target="_blank" href="' + array[i][4] + '" rel="noopener"  aria-label="twitch of ' + array[i][0] + '">\n';
                     html += '<i class="fab fa-twitch"></i>\n';
                     html += '</a>\n';
                 }
                 ///////// DISCORD
                 if (array[i][5] !== '') {
-                    html += '<a target="_blank" class="discord clipboard" href="#" href="#" data-clipboard-text="' + array[i][5] + '" onclick="copyCp()">\n';
+                    html += '<a target="_blank" class="discord clipboard" href="#" href="#" data-clipboard-text="' + array[i][5] + '" onclick="copyCp()" rel="noopener" aria-label="discord of ' + array[i][0] + '">\n';
                     html += '<i class="fab fa-discord" data-toggle="tooltip" data-placement="top" title="' + array[i][5] + '"></i>\n';
                     html += '</a>\n';
                 }
@@ -157,7 +158,7 @@ function fill (id, array) {
         html += '</div>\n'; // close div.row
     }
 
-    $('#'+id).html(html);
+    $('#' + id).html(html);
 }
 
 $(document).on('click', 'a[href^="#"]', function (event) {
