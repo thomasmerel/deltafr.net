@@ -14,7 +14,6 @@ var members = [
     ['Crow', 'src/img/deltas/opt/crow.jpg', '', 'https://steamcommunity.com/profiles/76561198029587542', '', ''],
     ['Dogg', 'src/img/deltas/opt/dogg.jpg', '1981-07-21', 'https://steamcommunity.com/profiles/76561197985342238', '', 'Dogg#8105'],
     ['Fennec', 'src/img/deltas/opt/fennec.jpg', '1997-07-06', 'https://steamcommunity.com/profiles/76561198039833419/', 'https://www.twitch.tv/mr_lo0ky', 'Fennec#4338'],
-    ['Gecko', 'src/img/deltas/opt/gecko.jpg', '', '', '', ''],
     ['Gerfaut', 'src/img/deltas/opt/gerfaut.jpg', '', 'https://steamcommunity.com/profiles/76561198011076482', '', 'Gerfaut#8330'],
     ['Goat', 'src/img/deltas/opt/avatar.jpg', '', '', '', 'Nativ_JuFa#1844'],
     ['Gorilla', 'src/img/deltas/opt/gorilla.jpg', '', 'https://steamcommunity.com/profiles/76561193787144601', '', 'Dr4g0v 🔞#9815'],

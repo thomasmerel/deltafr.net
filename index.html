@@ -28,7 +28,7 @@
           content="Fondée en novembre 2002, la [DeltaFrench] constitue une communauté multigaming aguerrie. C’est au travers de la francophonie et du jeu en ligne que nous nous efforçons d’implanter notre marque depuis maintenant plus de 15 ans">
     <meta name="twitter:image" content="https://deltafr.net/src/img/delta.png">
 
-    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css"
           integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/animate.css">
@@ -108,24 +108,13 @@
                 <h2 class="title" id="news">Les news</h2>
             </div>
         </div>
-        <div class="alert alert-warning text-center" role="alert">
-            Nous travaillons actuellement sur un meilleur système d'affichage des actualités. Les news sont donc
-            temporairement indisponibles.<br>
-            Si vous voulez lire les news des DeltaFr, vous pouvez venir sur
-            <a style="color: #856404; text-decoration: underline;" href="https://discordapp.com/invite/CuYmdCZ"
-               rel="noopener">
-                notre serveur Discord
-            </a>.
-        </div>
-        <!--
-        <widgetbot
-        id="newsembed" class="newsembed"
-        server="358220198555156480"
-        channel="358372659677102080"
-        height="500" width="100%"
-        shard="https://cl4.widgetbot.io"
-        ></widgetbot>
-        -->
+        <iframe src="https://disweb.deploys.io/channels/358220198555156480/358372659677102080"
+                height="500"
+                width="100%"
+                class="newsembed"
+                id="newsembed">
+        </iframe>
+        <p class="text-grey text-center">Nota : Les autres channels ne sont pas disponible.</p>
     </div>
 </div>
 
@@ -285,7 +274,6 @@
 <script type="text/javascript" src="src/js/scripts/Menu.js"></script>
 <script type="text/javascript" src="src/js/scripts/InputEngine.js"></script>
 <script type="text/javascript" src="src/js/scripts/GameEngine.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 <script type="text/javascript" src="src/js/script.js"></script>
 
 </body>

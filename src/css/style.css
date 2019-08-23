@@ -322,6 +322,10 @@ a {
 
 }
 
+.text-grey {
+    color: #a1b1c3;
+}
+
 a:hover {
     color: #343a40;
     text-decoration: none;
