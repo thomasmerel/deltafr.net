@@ -2,10 +2,423 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913ea800-b2dd-4d2e-81fb-72f16ce32d44" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countfiles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/easeljs-0.8.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/easeljs-0.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/easeljs-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/easeljs-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/movieclip-0.8.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/movieclip-0.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/movieclip-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/movieclip-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/webgl-0.8.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/webgl-0.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/webgl-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/EaselJS/lib/webgl-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/README_CREATEJS_NAMESPACE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/lib/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/lib/preloadjs-0.6.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/lib/preloadjs-0.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/lib/preloadjs-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/PreloadJS/lib/preloadjs-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/README_CREATEJS_NAMESPACE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/cordovaaudioplugin-0.6.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/cordovaaudioplugin-0.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/cordovaaudioplugin-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/cordovaaudioplugin-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/flashaudioplugin-0.6.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/flashaudioplugin-0.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/flashaudioplugin-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/flashaudioplugin-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/soundjs-0.6.1.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/soundjs-0.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/soundjs-NEXT.combined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/lib/soundjs-NEXT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/MIT.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/boot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/jasmine-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/jasmine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/lib/jasmine-2.0.2/jasmine_favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/spec/Helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/spec/SoundSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/tasks/findopenport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/SoundJS/tests/tasks/listips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/css/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/ico/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bootstrap-docs-readme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bs-docs-bootstrap-features.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bs-docs-masthead-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bs-docs-responsive-illustrations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/bs-docs-twitter-github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/8020select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/adoptahydrant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/breakingnews.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/fleetio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/gathercontent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/jshint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/kippt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/example-sites/soundready.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-carousel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-fluid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-justified-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-marketing-narrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-marketing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-signin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-starter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/bootstrap-example-sticky-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/browser-icon-chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/browser-icon-firefox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/browser-icon-safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/slide-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/slide-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/examples/slide-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/grid-baseline-20px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/less-logo-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/img/responsive-illustrations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/google-code-prettify/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/google-code-prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/holder/holder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/base-css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/build/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/customize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/justified-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/marketing-narrow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/starter-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/sticky-footer-navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/examples/sticky-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/extend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/getting-started.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/scaffolding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/layout.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/base-css.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/components.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/customize.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/extend.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/getting-started.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/javascript.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/docs/templates/pages/scaffolding.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/bootstrap-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/phantom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-phantom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/unit/bootstrap-typeahead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/vendor/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/vendor/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/js/tests/vendor/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/accordion.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/hero-unit.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/labels-badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/layouts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive-1200px-min.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive-767px-max.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive-768px-979px.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive-navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/responsive.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/sprites.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/css-tests.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/css-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/forms-responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/navbar-fixed-top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/navbar-static-top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tests/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/.mailmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/build/release-notes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/build/release.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/jquery-migrate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/benchmark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/benchmarker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/benchmarker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/closest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/jquery-basis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/speed/slice.vs.concat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/event-alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/intro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/outro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/sizzle-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/.jshintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/1x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/ajax/unreleasedXHR.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/atom+xml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/badcall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/badjson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/cleanScript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/core/cc_on.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/core/dont_return.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/core/dynamic_ready.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/dimensions/documentLarge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/dimensions/documentSmall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/echoData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/echoQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/errorWithJSON.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/errorWithText.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/etag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/evalScript.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/event/focusElem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/event/longLoadScript.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/event/onbeforeunload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/event/promiseReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/event/syncReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/headers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/if_modified_since.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/jquery-1.9.1.ajax_xhr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/json_obj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/jsonp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/manipulation/iframe-denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/name.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/nocontent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/absolute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/relative.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/offset/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/params_html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/readywaitasset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/readywaitloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/script.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/selector/html5_selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/selector/sizzle_cache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/statusText.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/bodyBackground.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/boxSizing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/csp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/csp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/shrinkWrapBlocks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/support/testElementCrash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/testinit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/testrunner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/testsuite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/ua.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/with_fries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/data/with_fries_over_jsonp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/delegatetest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/hovertest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/localfile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/networkerror.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/readywait.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/exports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/unit/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bower_components/jquery/test/xhtml.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Bomb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Bonus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Bot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Entity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Fire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/GameEngine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/InputEngine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Tile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/Utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts/core.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,68 +431,27 @@
       <executable />
     </execution>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Fennec</find>
-      <find>avatar.jpg</find>
-      <find />
-      <find>fen</find>
-      <find>octo</find>
-      <find>Ant</find>
-      <find>Scar</find>
-      <find>fennec</find>
-      <find>bea</find>
-      <find>R</find>
-      <find>br/</find>
-      <find>body</find>
-      <find>vutlrue</find>
-      <find>href=&quot;#</find>
-      <find>href=&quot;#&quot;</find>
-      <find>png</find>
-      <find>html5-bombergirl/js</find>
-      <find>boo</find>
-      <find>ikran</find>
-      <find>lico</find>
-      <find>https://steamcommunity.com/profiles/76561198010847814</find>
-      <find>= html +</find>
-      <find>src/img/deltas</find>
-      <find>.png</find>
-      <find>leaders</find>
-      <find>http://</find>
-      <find>img</find>
-      <find>bday</find>
-      <find>isBday</find>
-      <find>news</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>avatar.jpg</replace>
-      <replace />
-      <replace>src/js/bomb</replace>
-      <replace>+=</replace>
-      <replace>.webp</replace>
-      <replace>src/img/deltas/webp</replace>
-      <replace>src/img/deltas/opt</replace>
-      <replace>.jpng</replace>
-      <replace>.jpg</replace>
-      <replace>array</replace>
-      <replace>https://</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PeXtZYTzEXg7nCMpLpf5FJjMd5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-cv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/news" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\deltafr.net\news" />
+      <recent name="D:\wamp\www\deltafr.net\news\pics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\deltafr.net\news" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,6 +540,10 @@
       <workItem from="1562325751427" duration="15000" />
       <workItem from="1563144039677" duration="16000" />
       <workItem from="1566235752135" duration="1917000" />
+      <workItem from="1567551543454" duration="7175000" />
+      <workItem from="1567558765834" duration="1818000" />
+      <workItem from="1567564236602" duration="7658000" />
+      <workItem from="1567715895971" duration="541000" />
     </task>
     <servers />
   </component>
@@ -179,10 +555,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
