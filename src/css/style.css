@@ -400,8 +400,9 @@ a > i {
     width: 16px;
 }
 
-.n-img {
+.n-media {
     max-width: 560px;
+    width: 100%;
 }
 
 .n-content {
