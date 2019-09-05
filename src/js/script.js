@@ -195,7 +195,8 @@ $('#modal').on('hide.bs.modal', function () {
 });
 
 function fillNews() {
-    $.get('countfiles.php', function(data) {
+    $.get('countfiles.php')
+        .done(function (data) {
         data = data - 1;
         for (var i = data; i >= 0; i--) {
             var xhttp = new XMLHttpRequest();
@@ -212,7 +213,7 @@ function fillNews() {
                     );
                 }
             };
-            xhttp.open("GET", "news/"+ i +".html", true);
+            xhttp.open("GET", "news/"+ i +".html", false);
             xhttp.send();
         }
     });
